@@ -10,6 +10,7 @@ addEventListener("DOMContentLoaded", (e) =>{
         else{
             resultado.innerHTML = 'Incorrecto,  al menos una de las dos expresiones es True por lo tanto lo que devuelve el operando OR es True'
         }
+        console.log(primeraExpresion);
         let form2 = document.querySelector('#form2')
         form2.addEventListener('submit', (e) => {
             e.preventDefault();
