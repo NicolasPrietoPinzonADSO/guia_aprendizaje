@@ -18,15 +18,23 @@
     <form id="form">
         <p>Según el operador OR la siguiente expresion da como resultado un valor True or False</p>
         <p>(2 * 5) < 8 OR ((4 * 6) > (2 * 5) )</p>
-        <input type="text" name="first" required>
-        <input type="submit"><br>
-        <span id="resultado"></span>
+
+        <select id="first1">
+            <option selected disabled>Seleccione</option>
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select><br>
+        <span class="resultado"></span>
     </form>
     <form id="form2">
         <p>(4+ 5) < 3 AND ( ( 5 * 5 ) + (4 + 25 < 3) )</p>
-        <input type="text" name="sec" required>
-        <input type="submit" name="submit"><br>
-        <span id="resultado1"></span>
+        <select id="first2">
+            <option selected disabled>Seleccione</option>
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </select><br>
+        <span class="resultado1"></span>
+        
     </form> 
 </body>
 </html>
